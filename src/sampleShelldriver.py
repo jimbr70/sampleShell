@@ -1,6 +1,7 @@
 ﻿from cloudshell.shell.core.driver_context import *
 from cloudshell.shell.core.resource_driver_interface import ResourceDriverInterface
 
+# just try to find the change other thanthis line!  :) 
 
 class SampleShellDriver (ResourceDriverInterface):
     
@@ -11,7 +12,7 @@ class SampleShellDriver (ResourceDriverInterface):
     # This is a good place to load and cache the driver configuration, initiate sessions etc.
     def initialize(self, context):              
         """
-        :type context: cloudshell.shell.core.driver_context.InitCommandContext
+        :type context: cloudshell.shell.core.driver_context.InitCommandContext 
         """
         return 'Finished initializing'
 
